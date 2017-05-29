@@ -25,7 +25,7 @@ int binarySearch(int array[], int n, int value) {
     return -1;
 }
 
-int main(int argc, const char * argv[]) {
+int binaryMain(int argc, const char * argv[]) {
     int a[10], value;
     for (int i = 0; i < 10; i++) {
         scanf("%d", &a[i]);

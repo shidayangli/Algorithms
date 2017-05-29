@@ -36,7 +36,7 @@ void quickSort (int left, int right) {
     quickSort(i+1, right);
 }
 
-int quickmain(int argc, const char * argv[]) {
+int quickMain(int argc, const char * argv[]) {
     int i;
     scanf("%d", &n);
     for (i = 1; i <= n; i++) {

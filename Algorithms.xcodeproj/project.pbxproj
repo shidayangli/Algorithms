@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F8569141EDC10C80073E901 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8F8569131EDC10C80073E901 /* main.c */; };
 		8FC2F3FF1EDC0A8C002132D2 /* ReverseString.c in Sources */ = {isa = PBXBuildFile; fileRef = 8FC2F3FE1EDC0A8C002132D2 /* ReverseString.c */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		8F17AEBC1ED57D1E009CD4A8 /* Algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithms; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F8569131EDC10C80073E901 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		8FC2F3F41EDBDDB4002132D2 /* BinarySearch.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BinarySearch.c; sourceTree = "<group>"; };
 		8FC2F3F51EDBDDB4002132D2 /* BubbleSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BubbleSort.c; sourceTree = "<group>"; };
 		8FC2F3F61EDBDDB4002132D2 /* BucketSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BucketSort.c; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 			children = (
 				8FC2F3FD1EDC0A81002132D2 /* PlayString */,
 				8FC2F3F31EDBDDB4002132D2 /* Sort */,
+				8F8569131EDC10C80073E901 /* main.c */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F8569141EDC10C80073E901 /* main.c in Sources */,
 				8FC2F3FF1EDC0A8C002132D2 /* ReverseString.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
