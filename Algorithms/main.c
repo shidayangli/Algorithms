@@ -6,8 +6,11 @@
 //  Copyright © 2017年 yangli. All rights reserved.
 //
 
-#include <stdio.h>
+#include "StringHandle/ReverseStringHandle.c"
 
 int main(int argc, const char * argv[]) {
+    char s[] = "dfhsdkn";
+    LeftRotateString(s, 7, 3);
+    printf("%s\n", s);
     return 0;
 }
