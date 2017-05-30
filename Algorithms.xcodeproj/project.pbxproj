@@ -24,9 +24,10 @@
 
 /* Begin PBXFileReference section */
 		8F17AEBC1ED57D1E009CD4A8 /* Algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithms; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F24774C1EDD942B00B6CE1F /* ContainStringHandle.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ContainStringHandle.c; sourceTree = "<group>"; };
+		8F24774D1EDD942B00B6CE1F /* ConvertStringToInt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ConvertStringToInt.c; sourceTree = "<group>"; };
+		8F24774E1EDD942B00B6CE1F /* ReverseStringHandle.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ReverseStringHandle.c; sourceTree = "<group>"; };
 		8F8569131EDC10C80073E901 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		8FDA83111EDD5A400062280D /* ReverseStringHandle.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ReverseStringHandle.c; sourceTree = "<group>"; };
-		8FDA83121EDD5A400062280D /* ContainStringHandle.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ContainStringHandle.c; sourceTree = "<group>"; };
 		8FDA83141EDD5AA30062280D /* BinarySearch.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BinarySearch.c; sourceTree = "<group>"; };
 		8FDA83151EDD5AA30062280D /* BubbleSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BubbleSort.c; sourceTree = "<group>"; };
 		8FDA83161EDD5AA30062280D /* BucketSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BucketSort.c; sourceTree = "<group>"; };
@@ -63,20 +64,21 @@
 		8F17AEBE1ED57D1E009CD4A8 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
-				8FDA830F1EDD5A400062280D /* YL_StringHandle */,
+				8F24774B1EDD942B00B6CE1F /* StringHandle */,
 				8FDA83131EDD5AA30062280D /* YL_Sort */,
 				8F8569131EDC10C80073E901 /* main.c */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
 		};
-		8FDA830F1EDD5A400062280D /* YL_StringHandle */ = {
+		8F24774B1EDD942B00B6CE1F /* StringHandle */ = {
 			isa = PBXGroup;
 			children = (
-				8FDA83111EDD5A400062280D /* ReverseStringHandle.c */,
-				8FDA83121EDD5A400062280D /* ContainStringHandle.c */,
+				8F24774C1EDD942B00B6CE1F /* ContainStringHandle.c */,
+				8F24774D1EDD942B00B6CE1F /* ConvertStringToInt.c */,
+				8F24774E1EDD942B00B6CE1F /* ReverseStringHandle.c */,
 			);
-			path = YL_StringHandle;
+			path = StringHandle;
 			sourceTree = "<group>";
 		};
 		8FDA83131EDD5AA30062280D /* YL_Sort */ = {

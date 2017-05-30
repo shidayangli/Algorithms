@@ -6,11 +6,8 @@
 //  Copyright © 2017年 yangli. All rights reserved.
 //
 
-#include "YL_StringHandle/ContainStringHandle.c"
+#include "StringHandle/ConvertStringToInt.c"
 
 int main(int argc, const char * argv[]) {
-    char *s = "asdfghjkl";
-    char *m = "djfhg";
-    printf("%d\n", containString1(s, m));
     return 0;
 }
