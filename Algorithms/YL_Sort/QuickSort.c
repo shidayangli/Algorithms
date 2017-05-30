@@ -8,9 +8,7 @@
 // 快速排序
 #include <stdio.h>
 
-int a[101], n;
-
-void quickSort (int left, int right) {
+void quickSort (int a[], int left, int right) {
     if (left > right)
         return;
     int i, j, t, temp;
@@ -32,17 +30,17 @@ void quickSort (int left, int right) {
     }
     a[left] = a[i];
     a[i] = temp;
-    quickSort(left, i-1);
-    quickSort(i+1, right);
+    quickSort(a, left, i-1);
+    quickSort(a, i+1, right);
 }
 
 int quickMain(int argc, const char * argv[]) {
-    int i;
+    int i, a[101], n;
     scanf("%d", &n);
     for (i = 1; i <= n; i++) {
         scanf("%d", &a[i]);
     }
-    quickSort(1, n);
+    quickSort(a, 1, n);
     for (i = 1; i <= n; i++) {
         printf("%d", a[i]);
     }

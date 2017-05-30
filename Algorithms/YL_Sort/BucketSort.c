@@ -1,5 +1,5 @@
 //
-//  main.c
+//  BucketSort.c
 //  Algorithms
 //
 //  Created by yangli on 2017/5/24.
