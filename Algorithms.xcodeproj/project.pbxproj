@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8F8569141EDC10C80073E901 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8F8569131EDC10C80073E901 /* main.c */; };
+		8FA8CE2E1EDE6B3E00F186AF /* Palindrome.c in Sources */ = {isa = PBXBuildFile; fileRef = 8FA8CE2D1EDE6B3E00F186AF /* Palindrome.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,7 @@
 		8F24774D1EDD942B00B6CE1F /* ConvertStringToInt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ConvertStringToInt.c; sourceTree = "<group>"; };
 		8F24774E1EDD942B00B6CE1F /* ReverseStringHandle.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ReverseStringHandle.c; sourceTree = "<group>"; };
 		8F8569131EDC10C80073E901 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		8FA8CE2D1EDE6B3E00F186AF /* Palindrome.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Palindrome.c; sourceTree = "<group>"; };
 		8FDA83141EDD5AA30062280D /* BinarySearch.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BinarySearch.c; sourceTree = "<group>"; };
 		8FDA83151EDD5AA30062280D /* BubbleSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BubbleSort.c; sourceTree = "<group>"; };
 		8FDA83161EDD5AA30062280D /* BucketSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BucketSort.c; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				8F24774C1EDD942B00B6CE1F /* ContainStringHandle.c */,
 				8F24774D1EDD942B00B6CE1F /* ConvertStringToInt.c */,
 				8F24774E1EDD942B00B6CE1F /* ReverseStringHandle.c */,
+				8FA8CE2D1EDE6B3E00F186AF /* Palindrome.c */,
 			);
 			path = StringHandle;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FA8CE2E1EDE6B3E00F186AF /* Palindrome.c in Sources */,
 				8F8569141EDC10C80073E901 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
